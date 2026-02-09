@@ -1,0 +1,12 @@
+project: athletes_project
+registry: data/registry.db
+provider: local
+
+offline_store:
+  type: file
+
+online_store:
+  type: sqlite
+  path: data/online_store.db
+
+entity_key_serialization_version: 3
