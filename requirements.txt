@@ -1,0 +1,9 @@
+feast
+mlflow
+scikit-learn
+pandas
+numpy
+pyarrow
+matplotlib
+codecarbon
+pyyaml

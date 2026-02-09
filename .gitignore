@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.venv/
+venv/
+.env
+.env.*
+
+# Data / artifacts
+data/*.csv
+data/*.parquet
+mlruns/
+*.db
+*.sqlite
+*.log
+*.png
+*.pdf
+
+# Feast registry / online store
+src/feast_repo/data/
