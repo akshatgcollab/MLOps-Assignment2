@@ -44,10 +44,6 @@ python src/feast_apply.py --repo src/feast_repo --parquet data/athletes.parquet
 python src/train.py --repo src/feast_repo --parquet data/athletes.parquet --mlruns mlruns
 ```
 
-### 6) View MLflow UI (local)
-```bash
-mlflow ui --backend-store-uri mlruns --port 5000
-```
 Open http://127.0.0.1:5000
 
 ## Notes
