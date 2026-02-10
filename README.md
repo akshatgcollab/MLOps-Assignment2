@@ -46,6 +46,3 @@ python src/train.py --repo src/feast_repo --parquet data/athletes.parquet --mlru
 
 Open http://127.0.0.1:5000
 
-## Notes
-- Any Colab/ngrok-specific code and tokens were intentionally removed from the repo.
-- The Feast offline store uses `data/athletes.parquet` by default; you can change the path in `src/feast_repo/features.py`.
