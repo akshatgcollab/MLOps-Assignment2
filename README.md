@@ -44,5 +44,3 @@ python src/feast_apply.py --repo src/feast_repo --parquet data/athletes.parquet
 python src/train.py --repo src/feast_repo --parquet data/athletes.parquet --mlruns mlruns
 ```
 
-Open http://127.0.0.1:5000
-
